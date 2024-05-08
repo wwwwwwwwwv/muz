@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){document.getElementById("tgw_663b7d842a993df79d0bd386").setAttribute("src","https://tgwidget.com/channel/v2.0/?id=663b7d842a993df79d0bd386")})
