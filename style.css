@@ -85,7 +85,7 @@ header img {
 
   header{
     justify-content: none;
-    width: 430px;
+    width: 420px;
   }
   header p{
     display: none;
@@ -94,8 +94,15 @@ header img {
   .audi{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-
+    padding: 10px;
+    margin-left: -50px;
   }
+
+  .muz{
+    width: 420px;
+  }
+
+ 
 
   
 }
