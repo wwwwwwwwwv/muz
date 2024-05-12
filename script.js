@@ -12,3 +12,7 @@ function addToLocalStorage(trackName) {
   }
   localStorage.setItem('tracks', JSON.stringify(tracks));
 }
+
+
+
+

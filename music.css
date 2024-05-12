@@ -43,6 +43,50 @@ header a{
   text-decoration: none;
 }
 
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.tab {
+  position: absolute;
+  left: -200px; /* начальное положение за пределами экрана */
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #f0f0f0;
+  padding: 20px;
+  transition: left 0.3s ease-in-out; /* анимация движения */
+}
+
+.tab.open {
+  left: 0; /* положение при открытии */
+}
+
+.tab button {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  margin-top: 10px;
+  display: none;
+}
+
+.tab.open .content {
+  display: block;
+}
+
+
 @media (max-width:800px){
 
   body{

@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
     <title>My Music</title>
     <link rel="shortcut icon" href="/trollust (1).ico" type="image/x-icon">
-    
     <link rel="stylesheet" href="/music.css">
 </head>
 <body>
@@ -19,11 +18,17 @@
   </div>
 </header>
 
-
-<div id="trackList">
-    <!-- Здесь будут отображаться прослушанные треки -->
+<div class="container">
+  <div class="tab" id="tab">
+    <button onclick="toggleTab()">Открыть</button>
+    <div class="content">
+      <h2>Плейлист</h2>
+      <ul id="playlist"></ul>
+    </div>
+  </div>
 </div>
 
-<script src="myMusic.js"></script>
+
+<script src="/myMusic.js"></script>
 </body>
 </html>
